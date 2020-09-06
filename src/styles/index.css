@@ -6,7 +6,6 @@ body {
 .indexWrapper {
    height: 100%;
    width: 100%;
-   background-color: red;
    display: flex;
    flex-direction: column;
    justify-content: center;
@@ -15,20 +14,54 @@ body {
 }
 
 .nav {
-  height: 200px;
-  width: 200px;;
-  background-color: blue;
+  height: 30px;
+  width: 700px;;
+  margin-top: 5em;
+  display: flex;
+  justify-content: space-around;
+}
+
+.nav a {
+  color: black;
+}
+
+.nav a:hover {
+  color: red;
+}
+
+.collageWrapper {
+  display: flex;
+  justify-content: center;
+  margin-top: 1em;
 }
 
 .collage {
-  height: 200px;
-  width: 100%;
-  background-color: pink;
+  display: grid;
+  grid-template-columns: 80px 1fr;
+}
+
+.blogTitle {
+  margin-top: 15em;
+}
+
+.blogTitle h2 {
+  transform: rotate(-90deg);
+}
+
+.blogTitle h2:hover {
+  color: red; 
+}
+
+
+.olivia {
+  height: 500px;
+  box-shadow: 3px 5px 80px 3px;
+}
+
+.olivia img {
+  height: 500px;
 }
 
 .indexFooter {
-  height: 200px;
-  width: 100%;
-  background-color: green;
-
+  height: 30px;
 }
