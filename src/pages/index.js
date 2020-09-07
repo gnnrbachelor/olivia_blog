@@ -6,11 +6,11 @@ export default function Index() {
   return (
 
    <div className={"indexWrapper"}>
-
-      <div className={"nav"}>
-       <a href={"https://www.instagram.com/olivewrztartan"}>Instagram</a>
-       <a href={"https://twitter.com/devilwrztartan"}>Twitter</a>
-       <a href={"https://m.facebook.com/Devilwearstartan-107017574465439/"}>Facebook</a>
+     <div class="card">
+       <div className={"nav"}>
+         <a href={"https://www.instagram.com/olivewrztartan"}>Instagram</a>
+         <a href={"https://twitter.com/devilwrztartan"}>Twitter</a>
+         <a href={"https://m.facebook.com/Devilwearstartan-107017574465439/"}>Facebook</a>
       </div>
       <div className={"collageWrapper"}>
 
@@ -19,6 +19,7 @@ export default function Index() {
           <div className={"olivia"}><img src="https://dl.dropboxusercontent.com/s/nqwesknwszrzkfw/olivia_collage.png?dl=0" alt="Olivia" /></div>
         </div>
       </div>
+     </div>
    </div>
   )
 }
