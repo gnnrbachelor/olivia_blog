@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Olivia Bachelor`,
+    title: `Devil Wears Tartan`,
     author: {
       name: `Olivia Bachelor`,
       summary: `A blog for Olivia Bachelor.`,
