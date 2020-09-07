@@ -110,6 +110,6 @@ footer {
 
 .social {
   display: grid;
-  grid-template-columns: 100px 80px 100px;
+  grid-template-columns: 100px 80px 100px 100px;
 }
 

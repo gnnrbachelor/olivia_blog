@@ -11,6 +11,7 @@ export default function Index() {
          <a href={"https://www.instagram.com/olivewrztartan"}>Instagram</a>
          <a href={"https://twitter.com/devilwrztartan"}>Twitter</a>
          <a href={"https://m.facebook.com/Devilwearstartan-107017574465439/"}>Facebook</a>
+         <a href={"https://www.depop.com/devilwearstartan/"}>Depop</a>
       </div>
       <div className={"collageWrapper"}>
 
