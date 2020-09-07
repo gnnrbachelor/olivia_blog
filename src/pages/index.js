@@ -16,7 +16,7 @@ export default function Index() {
 
         <div className={"collage"}>  
           <div className={"blogTitle"}><Link to="blog"><h2>Blog</h2></Link></div> 
-          <div className={"olivia"}><img src="https://dl.dropboxusercontent.com/s/nqwesknwszrzkfw/olivia_collage.png?dl=0" alt="Olivia" /></div>
+          <div className={"olivia"}><Link to="/"><img src="https://dl.dropboxusercontent.com/s/nqwesknwszrzkfw/olivia_collage.png?dl=0" alt="Olivia" /></Link></div>
         </div>
       </div>
      </div>

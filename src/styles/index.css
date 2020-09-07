@@ -10,6 +10,7 @@ body {
   border-radius: 10px;
   box-shadow: 3px 5px 100px 3px #2b2929;
   margin-top: 2em;
+  font-family: 'UnifrakturMaguntia';
 
 }
 
@@ -31,10 +32,13 @@ body {
 
 .nav a {
   color: black;
+  font-size: 1.5em;
+  transition: font-size 1s ease;
 }
 
 .nav a:hover {
   color: red;
+  font-size: 2em;
 }
 
 .collageWrapper {
@@ -45,7 +49,7 @@ body {
 
 .collage {
   display: grid;
-  grid-template-columns: 80px 1fr;
+  grid-template-columns: 100px 1fr;
 }
 
 .blogTitle {
@@ -54,10 +58,15 @@ body {
 
 .blogTitle h2 {
   transform: rotate(-90deg);
+  font-family: 'UnifrakturMaguntia';
+  transition: font-size 1s ease;
+  font-size: 2em;
 }
+
 
 .blogTitle h2:hover {
   color: red; 
+  font-size: 2.5em;
 }
 
 
@@ -71,6 +80,11 @@ body {
 .olivia img {
   height: 500px;
   border-radius: 10px;
+  transition: height 1s ease;
+}
+
+.olivia img:hover {
+  height: 520px;
 }
 
 .profilePic {
@@ -87,7 +101,7 @@ body {
 .indexFooter {
   height: 30px;
 }
-  
+
 footer {
   display: flex;
   justify-content: space-between;

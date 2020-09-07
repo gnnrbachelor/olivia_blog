@@ -11,6 +11,8 @@ const Layout = ({ location, title, children }) => {
       <h3
         style={{
           marginTop: 0,
+          fontFamily: `UnifrakturMaguntia`,
+          fontSize: `2em`,
         }}
       >
         <Link
