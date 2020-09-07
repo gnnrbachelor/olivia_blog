@@ -1,8 +1,7 @@
 import Typography from 'typography'
-import judahTheme from 'typography-theme-judah'
+import elkGlenTheme from 'typography-theme-elk-glen'
 
-const typography = new Typography(judahTheme)
-
+const typography = new Typography(elkGlenTheme)
 
 // Hot reload typography in development.
 if (process.env.NODE_ENV !== `production`) {

@@ -3,6 +3,7 @@ body {
   margin: 0;
 }
 
+
 .card {
   display: absolute;
   height: 600px;
@@ -49,11 +50,11 @@ body {
 
 .collage {
   display: grid;
-  grid-template-columns: 100px 1fr;
+  grid-template-columns: 150px 1fr;
 }
 
 .blogTitle {
-  margin-top: 15em;
+  margin-top: 6em;
 }
 
 .blogTitle h2 {

@@ -25,7 +25,7 @@ const Layout = ({ location, title, children }) => {
           {title}
         </Link>
       </h3>
-      <Link to={`/`}><img src="https://dl.dropboxusercontent.com/s/nqwesknwszrzkfw/olivia_collage.png?dl=0" alt="Olivia Profile" className={"profilePic"}/></Link>
+      <Link to={`/`}><img src="https://dl.dropboxusercontent.com/s/mck5wau9di015xz/olivia_profile.jpg?dl=0" alt="Olivia Profile" className={"profilePic"}/></Link>
      </div>
     )
 
