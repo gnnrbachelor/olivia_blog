@@ -10,7 +10,7 @@ export default function Index() {
       <div className={"nav"}>
        <a href={"https://www.instagram.com/olivewrztartan"}>Instagram</a>
        <a href={"https://twitter.com/devilwrztartan"}>Twitter</a>
-       <a href={"https://vm.tiktok.com/ZMJS78bUH"}>Tiktok</a>
+       <a href={"https://m.facebook.com/Devilwearstartan-107017574465439/"}>Facebook</a>
       </div>
       <div className={"collageWrapper"}>
 

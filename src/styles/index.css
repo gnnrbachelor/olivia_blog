@@ -62,6 +62,16 @@ body {
   height: 500px;
 }
 
+.profilePic {
+  height: 100px;
+  border-radius: 50%;
+}
+
+.blogHeader {
+  display: flex;
+  justify-content: space-evenly;
+}
+
 .indexFooter {
   height: 30px;
 }
@@ -73,5 +83,6 @@ footer {
 
 .social {
   display: grid;
-  grid-template-columns: 100px 100px;
+  grid-template-columns: 100px 80px 100px;
 }
+

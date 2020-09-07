@@ -7,6 +7,7 @@ const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
 
     let header = (
+      <div className={"blogHeader"}>
       <h3
         style={{
           marginTop: 0,
@@ -17,11 +18,13 @@ const Layout = ({ location, title, children }) => {
             boxShadow: `none`,
             color: `inherit`,
           }}
-          to={`/`}
+          to={`/blog`}
         >
           {title}
         </Link>
       </h3>
+      <Link to={`/`}><img src="https://dl.dropboxusercontent.com/s/nqwesknwszrzkfw/olivia_collage.png?dl=0" alt="Olivia Profile" className={"profilePic"}/></Link>
+     </div>
     )
 
   return (
@@ -40,6 +43,7 @@ const Layout = ({ location, title, children }) => {
         <div className={"social"}>
           <a href={"https://www.instagram.com/olivewrztartan"}>Instagram</a>
           <a href={"https://twitter.com/devilwrztartan"}>Twitter</a>
+          <a href={"https://m.facebook.com/Devilwearstartan-107017574465439/"}>Facebook</a>
         </div>
       </footer>
     </div>
