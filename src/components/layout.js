@@ -5,30 +5,8 @@ import { rhythm, scale } from "../utils/typography"
 
 const Layout = ({ location, title, children }) => {
   const rootPath = `${__PATH_PREFIX__}/`
-  let header
 
-  if (location.pathname === rootPath) {
-    header = (
-      <h1
-        style={{
-          ...scale(1.5),
-          marginBottom: rhythm(1.5),
-          marginTop: 0,
-        }}
-      >
-        <Link
-          style={{
-            boxShadow: `none`,
-            color: `inherit`,
-          }}
-          to={`/`}
-        >
-          {title}
-        </Link>
-      </h1>
-    )
-  } else {
-    header = (
+    let header = (
       <h3
         style={{
           marginTop: 0,
@@ -45,7 +23,7 @@ const Layout = ({ location, title, children }) => {
         </Link>
       </h3>
     )
-  }
+
   return (
     <div
       style={{
@@ -58,8 +36,11 @@ const Layout = ({ location, title, children }) => {
       <header>{header}</header>
       <main>{children}</main>
       <footer>
-        © {new Date().getFullYear()}, Olivia Bachelor
-        {` `}
+        <div>© {new Date().getFullYear()}, Olivia Bachelor</div>
+        <div className={"social"}>
+          <a href={"https://www.instagram.com/olivewrztartan"}>Instagram</a>
+          <a href={"https://twitter.com/devilwrztartan"}>Twitter</a>
+        </div>
       </footer>
     </div>
   )
